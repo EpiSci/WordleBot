@@ -84,7 +84,7 @@ def solve_wordle(secret_word = None, prune_valid_words = False):
     if word_to_guess:
         print("Correct Word: " + word_to_guess)
     else:
-        print("Correct word is unkown.")
+        print("Correct word is unknown.")
     #  soare is the word we calculated to have the highest entropy from the beginning game state.
     #  To save on resources, we have it automatically guess soare first instead of calculating that it should use soare.
     #  Fun fact: Soare is a young hawk.
